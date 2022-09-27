@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "TiposPrimitivos",
+        "ResolucaoTela/src",
+        "IdiomaSistema/src",
+        "HoraDoSistema/src",
+        "HelloWord/src",
+        "Screen"
+    ]
+}
