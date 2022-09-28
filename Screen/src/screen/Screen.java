@@ -5,10 +5,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class Screen extends JFrame {
+
+    JTextField num1;
+    JTextField num2;
+
     public Screen() {
 
         setTitle("Tela");
-        setVisible(true);
         setSize(800, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
@@ -37,6 +40,21 @@ public class Screen extends JFrame {
          */
         jButton.addActionListener(this::teste);
         jButton2.addActionListener(this::outroteste);
+
+        num1 = new JTextField("Clique aqui");
+        num1.setBounds(100, 100, 100, 100);
+        num1.setFont(new Font("Arial", Font.ITALIC, 40));
+        num1.setText("texto");
+
+        num2 = new JTextField("Clique aqui");
+        num2.setBounds(200, 100, 100, 100);
+        num2.setFont(new Font("Arial", Font.ITALIC, 40));
+        num2.setText("texto");
+
+        add(num1);
+        add(num2);
+
+        setVisible(true);
     }
 
     /* Método utilizando implements ActionListener
@@ -47,10 +65,16 @@ public class Screen extends JFrame {
     */
 
     private void teste(ActionEvent actionEvent){
-        JOptionPane.showMessageDialog(null, "Tudo certo", "Status", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Aviso!", "Status", JOptionPane.WARNING_MESSAGE);
     }
 
     private void outroteste(ActionEvent actionEvent){
-        JOptionPane.showMessageDialog(null, "Tudo errado", "Error", JOptionPane.ERROR_MESSAGE);
+
+        Integer numero1 = Integer.parseInt(num1.getText());
+        Integer numero2 = Integer.parseInt(num2.getText());
+
+        Integer soma = numero1 + numero2;
+
+        JOptionPane.showMessageDialog(null, "Resultado = " + soma, "Error", JOptionPane.ERROR_MESSAGE);
     }
 }
