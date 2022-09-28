@@ -20,5 +20,7 @@ public class TiposPrimitivos {
 
         float notaString2Integer = Float.parseFloat(notaString);
         System.out.printf("String para float: %.1f",notaString2Integer);
+
+        teclado.close();
     }
 }
