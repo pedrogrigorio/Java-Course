@@ -5,9 +5,9 @@
         "ResolucaoTela/src",
         "IdiomaSistema/src",
         "HoraDoSistema/src",
+        "Heranca",
         "HelloWord/src",
         "ClasseObjeto",
-        "CheckBox",
-        "Heranca"
+        "CheckBox"
     ]
 }

@@ -3,6 +3,7 @@ package src;
 public class Conta {
 
     private Integer valor;
+    protected int total = 100;
 
     public Conta(){
         this.valor = 0;
@@ -15,5 +16,7 @@ public class Conta {
         System.out.println(valor);
     }
 
-
+    public void saldo(){
+        System.out.println(this.total);
+    }
 }

@@ -8,5 +8,12 @@ public class Main {
 
         contaPoupanca.view();
         contaCorrente.view();
+
+        Conta c;
+        c = new ContaCorrente();
+        c.saldo();
+
+        c = new ContaPoupanca(50);
+        c.saldo();
     }
 }
