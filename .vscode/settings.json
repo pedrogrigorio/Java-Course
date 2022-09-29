@@ -6,6 +6,7 @@
         "IdiomaSistema/src",
         "HoraDoSistema/src",
         "HelloWord/src",
-        "CheckBox"
+        "CheckBox",
+        "ClasseObjeto"
     ]
 }
