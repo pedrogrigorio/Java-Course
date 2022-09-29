@@ -1,4 +1,4 @@
-package pacote;
+package src.pacote;
 
 public class App {
     public static void main(String[] args){

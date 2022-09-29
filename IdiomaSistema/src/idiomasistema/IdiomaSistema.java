@@ -1,4 +1,4 @@
-package idiomasistema;
+package src.idiomasistema;
 
 import java.util.Locale;
 

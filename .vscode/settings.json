@@ -1,13 +1,13 @@
 {
     "java.project.sourcePaths": [
-        "TiposPrimitivos",
         "Screen",
-        "ResolucaoTela/src",
-        "IdiomaSistema/src",
-        "HoraDoSistema/src",
+        "ResolucaoTela",
+        "IdiomaSistema",
+        "HoraDoSistema",
         "Heranca",
-        "HelloWord/src",
+        "HelloWord",
         "ClasseObjeto",
-        "CheckBox"
+        "CheckBox",
+        "TiposPrimitivos"
     ]
 }

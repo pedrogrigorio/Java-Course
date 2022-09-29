@@ -1,4 +1,4 @@
-package resolucaotela;
+package src.resolucaotela;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;

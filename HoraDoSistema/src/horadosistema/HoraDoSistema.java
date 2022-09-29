@@ -1,4 +1,4 @@
-package horadosistema;
+package src.horadosistema;
 
 import java.util.Date;
 

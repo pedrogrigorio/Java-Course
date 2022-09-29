@@ -1,4 +1,4 @@
-package outropacote;
+package src.outropacote;
 
 public class Dog {
     public static void main(String[] args) {
