@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "TiposPrimitivos",
         "Screen",
         "ResolucaoTela",
         "IdiomaSistema",
@@ -8,6 +9,6 @@
         "HelloWord",
         "ClasseObjeto",
         "CheckBox",
-        "TiposPrimitivos"
+        "ListSetMap"
     ]
 }
